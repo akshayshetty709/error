@@ -1,0 +1,4 @@
+#!/bin/bash
+PATH="/home/akshay/newdevops"
+/usr/bin/touch $PATH/testfile
+echo "cron job sample file"> $PATH/testfile
