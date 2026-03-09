@@ -1,0 +1,10 @@
+2026-03-09T11:54:41.553726+00:00 ip-172-31-42-128 postfix/smtp[5055]: error: open database /etc/postfix/sasl_passwd.db: No such file or directory
+2026-03-09T11:54:41.592578+00:00 ip-172-31-42-128 postfix/smtp[5055]: connect to smtp.gmail.com[2404:6800:4000:1025::6c]:587: Network is unreachable
+2026-03-09T11:54:42.529356+00:00 ip-172-31-42-128 postfix/smtp[5055]: warning: hash:/etc/postfix/sasl_passwd is unavailable. open database /etc/postfix/sasl_passwd.db: No such file or directory
+2026-03-09T11:54:42.529467+00:00 ip-172-31-42-128 postfix/smtp[5055]: warning: hash:/etc/postfix/sasl_passwd lookup error for "smtp.gmail.com"
+2026-03-09T11:54:42.529507+00:00 ip-172-31-42-128 postfix/smtp[5055]: warning: 497EA40688: smtp_sasl_password_maps lookup error
+2026-03-09T11:54:42.533450+00:00 ip-172-31-42-128 postfix/bounce[5056]: warning: /etc/postfix/main.cf, line 49: overriding earlier entry: relayhost=
+2026-03-09T11:54:42.537938+00:00 ip-172-31-42-128 postfix/smtp[5055]: 497EA40688: to=<akshayshetty7709@gmail.com>, relay=smtp.gmail.com[192.178.211.108]:587, delay=1020, delays=1019/0.05/0.94/0, dsn=4.3.0, status=deferred (local data error while talking to smtp.gmail.com[192.178.211.108])
+2026-03-09T11:55:16.478829+00:00 ip-172-31-42-128 postfix/sendmail[5062]: warning: /etc/postfix/main.cf, line 49: overriding earlier entry: relayhost=
+2026-03-09T11:55:16.482651+00:00 ip-172-31-42-128 postfix/postqueue[5062]: warning: /etc/postfix/main.cf, line 49: overriding earlier entry: relayhost=
+2026-03-09T11:55:16.487069+00:00 ip-172-31-42-128 postfix/showq[5063]: warning: /etc/postfix/main.cf, line 49: overriding earlier entry: relayhost=
