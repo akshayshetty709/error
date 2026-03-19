@@ -1,0 +1,4 @@
+INSERT INTO Employees (Name, Role, Salary) VALUES 
+('Akshay', 'Devops', 20000),
+('Joy', 'Developer', 25000),
+('Vijay', 'Tester', 30000);
